@@ -1,5 +1,6 @@
 #####################################################################
 ## This is a simple example of how the bubble sort algorithm works
+## https://github.com/kringen
 #####################################################################  
 def bubblesort(arr):
 	# Start with the next to last array index
