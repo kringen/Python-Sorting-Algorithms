@@ -8,7 +8,7 @@ Since the last element in the array is for sure the largest (after iterating thr
 ### Iteration 1 ++
 This process continues checking the beginning of the array to the "Max" until no more swaps occur.  Once all swaps are done, the list is sorted and we break from the loop.
 ### Bubble Sort In Action
-Here is an example of how an array that has mostly small numbers on the left and mostly large numbers on the right:
+Here is an example of how an array that has mostly small numbers on the left and mostly large numbers on the right performs:
 
 ```python
 arr1 = [3, 2, 6, 4, 9, 4, 3, 7, 8, 5, 3, 5, 78, 54, 102]
