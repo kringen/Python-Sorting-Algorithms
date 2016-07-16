@@ -2,7 +2,7 @@
 ## This is a simple example of how the bubble sort algorithm works
 #####################################################################  
 def bubblesort(arr):
-	# Start with the next to last array index
+	# Set the max to the nex-to-last array index
 	maxIndex = len(arr) - 1
 	# Set the initial state of swap to true
 	swap = True
