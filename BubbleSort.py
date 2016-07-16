@@ -2,7 +2,7 @@
 ## This is a simple example of how the bubble sort algorithm works
 #####################################################################  
 def bubblesort(arr):
-	# Set the max to the nex-to-last array index
+	# Start with the next to last array index
 	maxIndex = len(arr) - 1
 	# Set the initial state of swap to true
 	swap = True
@@ -14,6 +14,7 @@ def bubblesort(arr):
 		# Set swap to false as default
 		swap = False
 		for i in range(maxIndex):
+		# a = index in array and b = index + 1
 			a = arr[i]
 			b = arr[i+1]
 			if b < a: # swap a and b
@@ -29,6 +30,7 @@ def bubblesort(arr):
 arr1 = [3, 2, 6, 4, 9, 4, 3, 7, 8, 5, 3, 5, 78, 54, 102]
 # Compared to an array that is almost reverse sorted...Takes more iterations!
 arr2 = [100, 54, 78, 5, 3, 8, 7, 3, 4, 9, 4, 6, 2, 3]
-bubblesort(arr1)
-bubblesort(arr2)      
-    
+
+if __name__ == "__main__":
+    bubblesort(arr1)
+    bubblesort(arr2)   
