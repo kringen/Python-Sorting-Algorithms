@@ -1,13 +1,13 @@
 # Python-Sorting-Algorithms
 Displays the concept and code behind some of the most famous array sorting algorithms.
 
-#  Bubble Sort
-## Iteration 1:
+##  Bubble Sort
+### Iteration 1:
 Starts at the first element of an array and compares to its neighbor.  If it is bigger, it switches places.  This process is repeated until the next-to-last in the array.
 Since the last element in the array is for sure the largest (after iterating through), no point in checking it again, so the "Max" is decremented by 1.
-## Iteration 1 ++:
+### Iteration 1 ++:
 This process continues checking the beginning of the array to the "Max" until no more swaps occur.  Once all swaps are done, the list is sorted and we break from the loop.
-
+### Bubble Sort In Action
 Here is an example of how an array that has mostly small numbers on the left and mostly large numbers on the right:
 
 ```python
